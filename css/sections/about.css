@@ -1,28 +1,30 @@
 .about {
-    max-width: 1110px;
-    margin: 0px auto;
-}
-
-.container-about {
     display: flex;
+    align-items: end;
     gap: 30px;
-    align-items: center;
+    padding: 50px 0;
 }
 
-.title__command {
-    font-size: 40px;
-    line-height: 110%;
-    margin-bottom: 20px;
+.team-info {
+    padding-bottom: 30px;
+    color: rgba(44, 45, 53, 1);
 }
 
-.text__command {
-    line-height: 150%;
-    margin-bottom: 20px;
+.team-info h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.team-info p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 20px 0;
 }
 
 .members__command {
     margin-top: 20px;
+    /* margin-bottom: 44px; */
     display: flex;
     gap: 30px;
 }
-
