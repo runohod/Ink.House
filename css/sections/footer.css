@@ -3,11 +3,6 @@
     margin-top: 70px;
 }
 
-.container-footer {
-    max-width: 1110px;
-    margin: 0px auto;
-}
-
 .block__footer {
     display: flex;
     justify-content: space-between;
@@ -44,3 +39,7 @@
 .p-footer p {
     color: #86928b;
 }
+
+/* .number-footer {
+    margin-top: ;
+} */
