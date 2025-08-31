@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --color-default: #598D66;
     --color-hover: #598D66;
@@ -15,3 +17,5 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+
+
