@@ -2,19 +2,13 @@
     background-image: url(/img/bg-promo.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    padding:  50px 0px;
     color: #fff;
-    padding:  70px 0px;
-    max-height: 540px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-.container-promo {
-    margin: 0px auto;
-    display: flex;
-    flex-direction: column;
-    
+.collection {
+    max-width: 540px;
 }
 
 .title-promo {
@@ -23,18 +17,22 @@
     font-size: 40px;
     color: #f4f6f5;
     margin-bottom: 20px;
+    gap: 20px;
 }
 
 .promo-text {
     line-height: 150%;
     max-width: 540px;
+    padding-bottom: 60px;
 }
 
 #button__promo {
     background: #eedb6d;
-    font-size: 20px;
-    width: 257px;
-    height: 65px;
-    margin-top: 60px;
+    display: inline-block;
+    padding: 20px 60px;
+    border: 1px solid;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     cursor: pointer;
 }
+
