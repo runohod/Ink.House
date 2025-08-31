@@ -3,16 +3,6 @@
     align-items: center;
 }
 
-/* .hero .container-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-} */
-
 .button-hero {
     display: inline-block;
     padding: 20px 60px;
