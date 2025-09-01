@@ -1,4 +1,4 @@
-.block__product {
+.discription {
     margin: 50px 0;
 }
 
@@ -66,6 +66,7 @@
     font-size: 24px;
     color: #598d66;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .button__buy {
