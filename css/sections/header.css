@@ -43,3 +43,15 @@
 .header_nav-link:hover {
     color: #598d66;
 }
+
+@media screen and (max-width: 1200px) {
+    .header_nav-link {
+        font-size: 18px;
+    };
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
