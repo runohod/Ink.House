@@ -3,6 +3,7 @@
     height: 100px;
     display: flex;
     align-items: center;
+    max-width: 100%;
 }
 
 .header .container {
@@ -48,6 +49,7 @@
     .header_nav-link {
         font-size: 18px;
     };
+
 
 }
 

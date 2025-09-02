@@ -22,6 +22,14 @@
 @media screen and (max-width: 1200px) {
     .container {
         padding: 0 39px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 33px;
         flex-direction: column;
+        max-width: 100%;
     }
 }
