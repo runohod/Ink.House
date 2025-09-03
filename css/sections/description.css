@@ -1,5 +1,6 @@
 .discription {
     margin: 50px 0;
+    max-width: 1110px;
 }
 
 .product__navigation {
@@ -9,7 +10,7 @@
     align-items: center;
 }
 
-.product__navigation h1 {
+.product__navigation h2 {
     color: rgba(44, 45, 53, 1);
     font-size: 2em;
     font-weight: 500;
@@ -78,4 +79,11 @@
     background-color: inherit;
     border: solid 1px #598D66;
     cursor: pointer;
+}
+
+.element__product {
+    width: 100%;
+    max-width: 350px;
+    background: #e1ede6;
+    padding: 20px 20px 20px 20px;
 }
