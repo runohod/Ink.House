@@ -12,17 +12,18 @@
 
 @media screen and (max-width: 768px) {
     .hero {
-        flex-direction: column;
-        text-align: center;
     }
 
      .hero img {
-        max-width: 330px;
-        margin-left: 39px;
+        max-width: 195px;
+        max-height: 239px;
+        margin-left: 33px;
     }
 
-    .branding p {
-        max-width: 330px;
+    .branding {
+        max-width: 285px;
+        max-height: 239px;
+        margin-left: 30px;
     }
 }
 
@@ -35,6 +36,15 @@
     color: rgba(89, 141, 102, 1);
     transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .button-hero {
+        max-width: 178px;
+        max-height: 50px;
+        padding: 20px;
+
+    }
 }
 
 .button-hero:hover {
