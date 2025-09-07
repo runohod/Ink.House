@@ -31,6 +31,13 @@
     line-height: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+    .header_nav-list {
+        font-size: 18px;
+    };
+
+}
+
 .header_nav-link{
     display: flex;
     align-items: center;
@@ -48,13 +55,6 @@
 .header_nav {
     display: flex;
     gap: 60px;
-}
-
-@media screen and (max-width: 1200px) {
-    .header_nav-list {
-        font-size: 18px;
-    };
-
 }
 
 @media screen and (max-width: 768px) {
