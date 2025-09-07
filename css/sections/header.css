@@ -1,6 +1,6 @@
 .header {
     background: #e1ede6;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     align-items: center;
     max-width: 100%;
@@ -65,6 +65,7 @@
     padding-top: 16px;
     border-top: 1px solid #C3D1C6;
     gap: px;
+    align-items: center;
 }
 }
 

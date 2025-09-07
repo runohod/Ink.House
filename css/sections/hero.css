@@ -1,6 +1,29 @@
 .hero {
     display: flex;
     align-items: center;
+    min-height: 620px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .hero img {
+        max-width: 330px;
+        margin-left: 39px;
+    }
+
+    .branding p {
+        max-width: 330px;
+    }
 }
 
 .button-hero {
