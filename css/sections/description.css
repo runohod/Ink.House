@@ -74,8 +74,6 @@
   font-size: 20px;
   color: #598d66;
   width: 100%;
-  /* max-width: 310px; */
-  /* max-height: 65px; */
   padding: 21px;
   background-color: inherit;
   border: solid 1px #598d66;
@@ -87,9 +85,4 @@
   max-width: 350px;
   background: #e1ede6;
   padding: 20px 20px 20px 20px;
-}
-
-@media screen and (max-width: 1200px) {
-  .element__product {
-  }
 }
