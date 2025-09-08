@@ -1,37 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --color-default: #598D66;
-    --color-hover: #598D66;
-    --color-focus: #598D66;
-    --color-active: #376B44;
+  --color-default: #598d66;
+  --color-hover: #598d66;
+  --color-focus: #598d66;
+  --color-active: #376b44;
 }
 
 * {
-    font-family: "Raleway", sans-serif;
-    box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1220px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 10px;
-    box-sizing: border-box;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 1200px) {
-    .container {
-        padding: 0 39px;
-        max-width: 100%;
-    }
+  .container {
+    padding: 0 39px;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        padding: 0 33px;
-        flex-direction: column;
-        max-width: 100%;
-    }
+  .container {
+    padding: 0 33px;
+    flex-direction: column;
+    max-width: 100%;
+  }
 }

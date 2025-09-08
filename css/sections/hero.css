@@ -1,76 +1,77 @@
 .hero {
-    display: flex;
-    align-items: center;
-    min-height: 620px;
+  display: flex;
+  align-items: center;
+  min-height: 620px;
 }
 
 .hero .container {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    /* .hero {
+  /* .hero {
     } */
 
-     .hero img {
-        max-width: 195px;
-        max-height: 239px;
-    }
+  .hero img {
+    max-width: 195px;
+    max-height: 239px;
+  }
 
-    .branding {
-        max-width: 285px;
-        max-height: 239px;
-        margin-left: 30px;
-    }
+  .branding {
+    max-width: 285px;
+    max-height: 239px;
+    margin-left: 30px;
+  }
 }
 
 .button-hero {
-    display: inline-block;
-    padding: 20px 60px;
-    border: 1px solid;
-    font-size: 1em;
-    background-color: inherit;
-    color: rgba(89, 141, 102, 1);
-    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    cursor: pointer;
+  display: inline-block;
+  padding: 20px 60px;
+  border: 1px solid;
+  font-size: 1em;
+  background-color: inherit;
+  color: rgba(89, 141, 102, 1);
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .button-hero {
-        max-width: 178px;
-        max-height: 50px;
-        padding: 20px;
-
-    }
+  .button-hero {
+    max-width: 178px;
+    max-height: 50px;
+    padding: 20px;
+  }
 }
 
 .button-hero:hover {
-    color: #FFF;
-    background-color: rgba(55, 107, 68, 1);
+  color: #fff;
+  background-color: rgba(55, 107, 68, 1);
 }
 
 .branding h1 {
-    font-size: 2.5em;
-    font-weight: 500;
-    color: rgba(44, 45, 53, 1);
-    margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: rgba(44, 45, 53, 1);
+  margin-bottom: 20px;
 }
 
 .branding h1 span {
-    color: rgba(89, 141, 102, 1);
+  color: rgba(89, 141, 102, 1);
 }
 
 .branding p {
-    font-size: 18px;
-    max-width: 540px;
-    line-height: 27px;
-    color: rgba(134, 146, 139, 1);
-    margin-bottom: 60px;
+  font-size: 18px;
+  max-width: 540px;
+  line-height: 27px;
+  color: rgba(134, 146, 139, 1);
+  margin-bottom: 60px;
 }
 
- .hero img {
-        max-width: 540px;
-        max-height: 621px;
-    }
+.hero img {
+  max-width: 540px;
+  /* max-height: 621px; */
+  width: 100%;
+}
