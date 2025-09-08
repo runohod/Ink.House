@@ -69,3 +69,8 @@
     color: rgba(134, 146, 139, 1);
     margin-bottom: 60px;
 }
+
+ .hero img {
+        max-width: 540px;
+        max-height: 621px;
+    }
