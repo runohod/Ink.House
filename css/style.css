@@ -1,6 +1,6 @@
-@import url(/css/sections/header.css);
-@import url(/css/sections/hero.css);
-@import url(/css/sections/description.css);
-@import url(/css/sections/promo.css);
-@import url(/css/sections/about.css);
-@import url(/css/sections/footer.css);
+@import url(./sections/header.css);
+@import url(./sections/hero.css);
+@import url(./sections/description.css);
+@import url(./sections/promo.css);
+@import url(./sections/about.css);
+@import url(./sections/footer.css);
