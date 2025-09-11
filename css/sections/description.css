@@ -33,6 +33,14 @@
   gap: 30px;
 }
 
+@media screen and (max-width: 576px) {
+  .sort {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+}
+
 .sort li {
   padding: 10px 30px;
   border-radius: 25px;
