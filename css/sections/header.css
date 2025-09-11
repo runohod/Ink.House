@@ -61,8 +61,7 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 16px;
-    padding-top: 16px;
+    /* padding-top: 16px; */
     border-top: 1px solid #c3d1c6;
-    align-items: center;
   }
 }
