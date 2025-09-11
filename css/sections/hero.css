@@ -23,12 +23,13 @@
     }
 
   .hero img {
-    max-width: 195px;
-    max-height: 239px;
-  }
+  max-width: 330px;
+  width: 100%;
+}
+
 
   .branding {
-    max-width: 285px;
+    max-width: 330px;
     margin-left: 30px;
   }
 }
@@ -47,9 +48,8 @@
 
 @media screen and (max-width: 768px) {
   .button-hero {
-    max-width: 178px;
-    max-height: 50px;
-    padding: 20px;
+    max-width: 210px;
+    max-height: 60px;
   }
 }
 
@@ -65,6 +65,14 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .branding h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+
 .branding h1 span {
   color: rgba(89, 141, 102, 1);
 }
@@ -77,7 +85,10 @@
   margin-bottom: 60px;
 }
 
-.hero img {
-  max-width: 540px;
-  width: 100%;
+@media screen and (max-width: 768px) {
+  .branding p {
+  font-size: 16px;
+  max-width: 330px;
+  margin-bottom: 11px;
+  }
 }
