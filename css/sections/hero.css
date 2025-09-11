@@ -7,7 +7,7 @@
 @media screen and (max-width: 768px) {
   .hero {
     max-height: 380px;
-    }
+  }
 }
 
 .hero .container {
@@ -20,13 +20,18 @@
   .hero .container {
     flex-direction: row;
     justify-content: center;
-    }
+  }
 
   .hero img {
-  max-width: 330px;
-  width: 100%;
-}
+    max-width: 330px;
+    width: 100%;
+  }
 
+  @media screen and (max-width: 576px) {
+    .hero img {
+      display: none;
+    }
+  }
 
   .branding {
     max-width: 330px;
@@ -53,6 +58,14 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .button-hero {
+    max-width: 178px;
+    max-height: 50px;
+    padding: 14.5px 41px;
+  }
+}
+
 .button-hero:hover {
   color: #fff;
   background-color: rgba(55, 107, 68, 1);
@@ -67,10 +80,16 @@
 
 @media screen and (max-width: 768px) {
   .branding h1 {
-  font-size: 2.5em;
-  font-weight: 500;
-  margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
 }
+
+@media screen and (max-width: 576px) {
+  .branding h1 {
+    margin-top: 60px;
+  }
 }
 
 .branding h1 span {
@@ -87,8 +106,8 @@
 
 @media screen and (max-width: 768px) {
   .branding p {
-  font-size: 16px;
-  max-width: 330px;
-  margin-bottom: 11px;
+    font-size: 16px;
+    max-width: 330px;
+    margin-bottom: 11px;
   }
 }

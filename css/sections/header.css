@@ -6,6 +6,12 @@
   max-width: 100%;
 }
 
+@media screen and (max-width: 576px) {
+.header_nav-link {
+    display: none;
+  }
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -19,6 +25,14 @@
 .header_logo img {
   width: 143px;
   height: 35px;
+}
+
+@media screen and (max-width: 576px) {
+  .header_logo img {
+  width: 143px;
+  height: 35px;
+  background: #ffffff;
+}
 }
 
 .header_nav_list {
@@ -66,4 +80,6 @@
   }
 }
 
+@media screen and (max-width: 576px) {
 
+}
