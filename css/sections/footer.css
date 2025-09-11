@@ -15,10 +15,25 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 576px) {
+  .footer__tel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+
 .footer__navigation {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__navigation {
+    gap: 20px;
+  }
 }
 
 .element-footer__navigation {
