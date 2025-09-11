@@ -107,45 +107,28 @@
 
 .element__product {
   width: 100%;
-  max-width: 350px;
   background: #e1ede6;
   padding: 20px 20px 20px 20px;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .element__product {
-
-  }
-} */
-
 @media screen and (max-width: 1200px) {
   .element__product {
-    max-width: 350px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .element__product {
-    max-width: 330px;
   }
 }
 
 .information__product {
   width: 100%;
-  max-width: 310px;
 }
 
 @media screen and (max-width: 1200px) {
   .information__product img {
     width: 100%;
-    max-width: 310px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .information__product img {
     width: 100%;
-    max-width: 290px;
   }
 }
 
