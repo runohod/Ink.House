@@ -56,7 +56,8 @@
 }
 
 .sort li.active {
-  border: 2px solid rgba(55, 107, 68, 1);
+  background:rgba(55, 107, 68, 1);
+  color: #fff;
 }
 
 .product {
@@ -119,12 +120,11 @@
   padding: 20px 20px 20px 20px;
 }
 
-@media screen and (max-width: 1200px) {
-  .element__product {
-  }
+.information__product {
+  width: 100%;
 }
 
-.information__product {
+.information__product img {
   width: 100%;
 }
 
@@ -135,6 +135,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .information__product img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .information__product img {
     width: 100%;
   }
