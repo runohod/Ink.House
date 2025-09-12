@@ -61,6 +61,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .header_nav-link {
+    font-size: 18px;
+  }
+}
+
 .header_nav-link:hover {
   color: #598d66;
 }
