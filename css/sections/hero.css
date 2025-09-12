@@ -19,8 +19,10 @@
 @media screen and (max-width: 768px) {
   .hero .container {
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: start;
   }
+}
 
   .hero img {
     max-width: 330px;
@@ -36,6 +38,13 @@
   .branding {
     max-width: 330px;
     margin-left: 30px;
+  }
+
+
+@media screen and (max-width: 768px) {
+  .branding {
+    max-width: 100%;
+    margin-left: 0px;
   }
 }
 
@@ -111,7 +120,6 @@
     margin-bottom: 11px;
   }
 }
-
 
 .hero__image-wrapper {
   width: 100%;
