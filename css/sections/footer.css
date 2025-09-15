@@ -54,3 +54,7 @@
 .p-footer p {
   color: #86928b;
 }
+
+.social {
+  display: flex;
+}

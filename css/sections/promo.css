@@ -7,11 +7,11 @@
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .promo {
     background-image: url(../../img/bg-promo576.png);
   }
-}
+} */
 
 @media screen and (max-width: 576px) {
   .promo {
