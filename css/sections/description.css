@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 576px) {
   .product__navigation {
-    display: none;
+    /* display: none; */
   }
 }
 
