@@ -1,4 +1,4 @@
-.about {
+.about-inner {
   display: flex;
   align-items: end;
   gap: 30px;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .about {
+  .about-inner {
     flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .about {
+  .about-inner {
     padding: 0px;
   }
 }
@@ -40,7 +40,7 @@
 }
 
 @media screen and (max-width: 576px) {
-  .about img {
+  .about-inner img {
     max-width: 375px;
   }
 }
