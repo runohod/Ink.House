@@ -110,13 +110,9 @@
   }
 }
 
-/* .container a {
-  width: 100%;
-} */
 
 @media screen and (max-width: 576px) {
   .container a {
-    /* background: #ffffff; */
     width: 100%;
     display: flex;
     justify-content: center;
