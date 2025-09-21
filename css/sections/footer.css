@@ -59,7 +59,7 @@
 
 .footer__navigation {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 60px;
 }
 
@@ -96,6 +96,11 @@
   color: #86928b;
 }
 
+@media screen and (max-width: 768px) {
+  .p-footer p {
+    font-size: 12px;
+  }
+}
 .social {
   /* display: flex; */
 }
@@ -111,9 +116,10 @@
     /* display: flex;
     flex-direction: column; */
     max-width: 132px;
-    gap: 10px;
+    gap: 0px;
     display: flex;
     flex-wrap: wrap;
+    max-height: 68px;
   }
 }
 
@@ -153,12 +159,12 @@
 }
 
 .social_img {
-  gap: 30px;
+  /* gap: 30px; */
   max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .social_img {
-    gap: 30px;
+    max-height: 32px;
   }
 }
