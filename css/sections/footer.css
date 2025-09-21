@@ -111,6 +111,9 @@
     /* display: flex;
     flex-direction: column; */
     max-width: 132px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -136,6 +139,7 @@
   .footer__dable {
     display: flex;
     justify-content: space-between;
+    gap: 75px;
   }
 }
 
@@ -150,11 +154,11 @@
 
 .social_img {
   gap: 30px;
+  max-width: 100%;
 }
 
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .social_img {
-    max-width: 176px;
-    max-height: 48px;
+    gap: 30px;
   }
-} */
+}
