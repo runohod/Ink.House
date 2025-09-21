@@ -25,22 +25,27 @@
   }
 }
 
+.hero img {
+  max-width: 540px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
   .hero img {
-    max-width: 540px;
-    width: 100%;
+    max-width: 330px;
   }
+}
 
-  @media screen and (max-width: 576px) {
-    .hero img {
-      display: none;
-    }
+@media screen and (max-width: 576px) {
+  .hero img {
+    display: none;
   }
+}
 
-  .branding {
-    max-width: 540px;
-    margin-left: 30px;
-  }
-
+.branding {
+  max-width: 540px;
+  margin-left: 30px;
+}
 
 @media screen and (max-width: 768px) {
   .branding {
@@ -124,7 +129,7 @@
 
 @media screen and (max-width: 768px) {
   .hero__image-wrapper {
-      width: 100%;
+    width: 100%;
   }
 }
 

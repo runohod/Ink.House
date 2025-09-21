@@ -16,6 +16,12 @@
   }
 }
 
+@media screen and (max-width: 970px) {
+  .block__footer {
+    gap: 75px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .block__footer {
     display: flex;
@@ -125,6 +131,7 @@
 
 @media screen and (max-width: 576px) {
   .social {
+    display: flex;
     max-width: 176px;
     max-height: 48px;
   }
@@ -141,11 +148,23 @@
   gap: 248px;
 }
 
+@media screen and (max-width: 1126px) {
+  .footer__dable {
+    gap: 75px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer__dable {
     display: flex;
     justify-content: space-between;
     gap: 75px;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  .footer__dable {
+    gap: 40px;
   }
 }
 
