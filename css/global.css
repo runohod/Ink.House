@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
 .container {
   max-width: 1130px;
   width: 100%;
