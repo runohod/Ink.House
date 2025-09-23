@@ -85,7 +85,9 @@
 
 @media screen and (max-width: 576px) {
   .footer__navigation {
-    gap: 100px;
+    gap: unset;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 
@@ -201,5 +203,11 @@
 @media screen and (max-width: 768px) {
   .social_img {
     max-height: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .social_img {
+    display: flex;
   }
 }
