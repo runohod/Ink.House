@@ -7,6 +7,12 @@
   --color-active: #376b44;
 }
 
+@media (max-width: 576px) {
+  :root {
+    --color-default: #ffffff; 
+  }
+}
+
 * {
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
