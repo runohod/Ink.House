@@ -69,11 +69,23 @@
   gap: 60px;
 }
 
+@media screen and (max-width: 900px) {
+  .footer__navigation {
+    gap: 55px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer__navigation {
     display: flex;
     flex-wrap: nowrap;
-    gap: 60px;
+    gap: 55px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer__navigation {
+    gap: 50px;
   }
 }
 
@@ -171,11 +183,24 @@
   gap: 248px;
 }
 
-@media screen and (max-width: 1126px) {
+@media screen and (max-width: 1170px) {
   .footer__dable {
-    gap: 75px;
+    gap: 50px;
   }
 }
+
+@media screen and (max-width: 1126px) {
+  .footer__dable {
+    gap: 65px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .footer__dable {
+    gap: 30px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .footer__dable {
