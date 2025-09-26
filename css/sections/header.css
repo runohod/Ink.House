@@ -138,3 +138,23 @@
     --color-default: #ffffff; 
   }
 }
+
+@media screen and (max-width: 1500px) {
+  .shtrihi {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .shtrihi {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo-h {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
