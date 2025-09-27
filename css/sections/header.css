@@ -110,6 +110,12 @@
   }
 }
 
+/* @media screen and (max-width: 576px) {
+  .header_nav {
+    height: 68px;
+  }
+} */
+
 @media screen and (max-width: 576px) {
   .container a {
     width: 100%;
@@ -135,7 +141,7 @@
 
 @media (max-width: 576px) {
   :root {
-    --color-default: #ffffff; 
+    --color-default: #ffffff;
   }
 }
 
@@ -160,3 +166,8 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .header {
+    background-color: #ffffff;
+  }
+}
