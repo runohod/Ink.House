@@ -280,11 +280,11 @@
   font-size: 16px;
 }
 
-@media screen and (max-width: 1700px) {
+
   .number-modile {
     display: none;
   }
-}
+
 
 @media screen and (max-width: 576px) {
   .number-modile {
