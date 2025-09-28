@@ -201,7 +201,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .footer__dable {
     display: flex;
@@ -281,8 +280,22 @@
   font-size: 16px;
 }
 
-.number-modile {
+@media screen and (max-width: 1700px) {
+  .number-modile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .number-modile {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* .number-modile {
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
+} */
